@@ -78,14 +78,14 @@ WSGI_APPLICATION = 'blog_platform.wsgi.application'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'  
 
 # SMTP settings
-EMAIL_HOST = 'sandbox.smtp.mailtrap.io'  
+EMAIL_HOST = 'demo'  
 EMAIL_PORT = 587  
 EMAIL_USE_TLS = True  
-EMAIL_HOST_USER = 'e0bb625cb52025'  
-EMAIL_HOST_PASSWORD = 'ffa86443beced6'  
+EMAIL_HOST_USER = 'username'  
+EMAIL_HOST_PASSWORD = 'password'  
 
 # Default sender email address
-DEFAULT_FROM_EMAIL = 'athirasaseendran428@gmail.com'
+DEFAULT_FROM_EMAIL = 'example@gmail.com'
 
 
 REST_FRAMEWORK = {
